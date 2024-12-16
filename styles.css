@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: radial-gradient(circle, #000428, #004e92);
+    font-family: "Arial", sans-serif;
+    color: white;
+}
+
+canvas {
+    display: block;
+    border: 2px solid white;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+#shopMenu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    z-index: 10;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+}
+
+#shopItems div {
+    margin: 10px 0;
+}
+
+#shopItems button {
+    background: #004e92;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#shopItems button:hover {
+    background: #0074d9;
+}
